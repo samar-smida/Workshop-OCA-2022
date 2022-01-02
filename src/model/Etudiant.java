@@ -28,6 +28,8 @@ public class Etudiant {
 	public void info(){
 		System.out.println( "l'étudiant " +nom+ " a " +age+ " ans. Il a " +moyenne+" moyenne. Son adresse est " +adresse);
 	}
+	
+	
 	// les getter et setter :
 	public String getNom() {
 		return nom;

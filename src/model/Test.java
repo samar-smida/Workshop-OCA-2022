@@ -15,6 +15,13 @@ public class Test {
 		e2.info();
 		
 		System.out.println("*******scanner methode*******");
-	}
+		System.out.println("donner le nom");
+		String nom = s.nextLine() ;
+		System.out.println("donner l'age");
+		int age = s.nextInt() ;
+		System.out.println( "Nom= " +nom+ " || age = " +age);
+				}
+	
+	
 
 }
