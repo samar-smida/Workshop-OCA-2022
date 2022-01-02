@@ -13,6 +13,7 @@ public class Test {
 		
 		e1.info();
 		e2.info();
+		e2.setAge(50);
 		
 		System.out.println("*******scanner methode*******");
 		System.out.println("donner le nom");

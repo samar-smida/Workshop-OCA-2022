@@ -45,8 +45,12 @@ public class Etudiant {
 	}
 	
 	public void setAge(int age) {
-		this.age = age;
+		if (age>18 && age<28) {
+		this.age = age; }
+		else 
+		{System.out.println("invalide");}
 	}
+	
 	public double getMoyenne() {
 		return moyenne;
 	}
